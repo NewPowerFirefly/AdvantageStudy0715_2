@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.gaobo.firefly.advantagestudy1.autoscroll.AutoScrollViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/myp_homework"
+        android:background="@drawable/jxhd">
+
+
+    </com.gaobo.firefly.advantagestudy1.autoscroll.AutoScrollViewPager>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/im_homework_work"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/homePageSize"
+            android:text="今日作业"
+            android:background="@drawable/singlebox"/>
+        <TextView
+            android:id="@+id/im_homework_workrequest"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/homePageSize"
+            android:text="作业反馈"
+            android:background="@drawable/singlebox"/>
+        <TextView
+            android:id="@+id/im_homework_workimportant"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/homePageSize"
+            android:text="讲解重点"
+            android:background="@drawable/singlebox"/>
+
+        <TextView
+            android:id="@+id/im_homework_workgood"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/homePageSize"
+            android:text="优秀作业"
+            android:background="@drawable/singlebox"/>
+
+    </LinearLayout>
+
+</LinearLayout>

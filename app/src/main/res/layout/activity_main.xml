@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gaobo.firefly.advantagestudy1.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titleBarHigh"
+        android:background="@color/titleBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="优学教育"
+            android:textColor="@color/titleFontColor"
+            android:textSize="@dimen/titleBarFontSize" />
+    </RelativeLayout>
+
+    <com.gaobo.firefly.advantagestudy1.view.MyViewPage
+        android:id="@+id/vp_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+    </com.gaobo.firefly.advantagestudy1.view.MyViewPage>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottomBarHigh"
+        android:layout_gravity="center_vertical"
+        android:background="@color/titleBar"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_homework"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableBottom="@drawable/a"
+            android:scaleType="fitXY"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_chat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableBottom="@drawable/a4"
+            android:scaleType="fitXY" />
+
+        <RadioButton
+            android:id="@+id/rb_class"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableBottom="@drawable/a2"
+            android:scaleType="fitXY" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="我的"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:drawableTop="@drawable/icon_mine"
+            android:scaleType="fitXY" />
+
+    </RadioGroup>
+</LinearLayout>

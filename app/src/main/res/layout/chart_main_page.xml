@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RadioGroup
+            android:id="@+id/rg_chart_homepage"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_chart_tw"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/singlebox"
+                android:button="@null"
+                android:text=" 提问" />
+
+            <RadioButton
+
+                android:id="@+id/rb_chart_jptz"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/singlebox"
+                android:button="@null"
+                android:text=" 精品帖子" />
+
+            <RadioButton
+
+                android:id="@+id/rb_chart_jzjl"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/singlebox"
+                android:button="@null"
+                android:text=" 家长交流" />
+
+            <RadioButton
+                android:id="@+id/rb_chart_jsjl"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/singlebox"
+                android:button="@null"
+                android:text=" 教师经验" />
+
+
+        </RadioGroup>
+
+        <android.support.v4.view.ViewPager
+            android:layout_below="@id/rg_chart_homepage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/asvp_chart_homepage">
+
+
+        </android.support.v4.view.ViewPager>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </LinearLayout>
+
+
+</LinearLayout>

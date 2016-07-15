@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Workspaces\\workspace_studio\\AdvantageStudy0715_2\\pulltorefresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\Workspaces\\workspace_studio\\AdvantageStudy0715_2\\pulltorefresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\workspace_studio\\AdvantageStudy1\\pulltorefresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\Workspaces\\workspace_studio\\AdvantageStudy1\\pulltorefresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\workspace_studio\\AdvantageStudy0715_2\\pulltorefresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\Workspaces\\workspace_studio\\AdvantageStudy0715_2\\pulltorefresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\workspace_studio\\AdvantageStudy1\\pulltorefresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\Workspaces\\workspace_studio\\AdvantageStudy1\\pulltorefresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    }
+]

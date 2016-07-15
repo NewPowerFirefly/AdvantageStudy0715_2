@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_minepage_qm"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/per_info">
+
+        <ImageView
+            android:id="@+id/iv_headpic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/headpic" />
+
+        <TextView
+            android:id="@+id/tv_minepage_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/iv_headpic"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/iv_headpic"
+            android:text="Poison"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_minepage_yh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_minepage_name"
+            android:layout_below="@id/tv_minepage_name"
+            android:layout_marginTop="6dp"
+            android:text="优号："
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_minepage_usernumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_minepage_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/tv_minepage_yh"
+            android:text="FireflyNewPower"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_minepage_qm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_minepage_yh"
+            android:layout_below="@id/tv_minepage_yh"
+            android:layout_marginTop="6dp"
+            android:text="签名："
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_minepage_signature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_minepage_yh"
+            android:layout_below="@id/tv_minepage_yh"
+            android:layout_marginTop="10dp"
+            android:text="                如果你不能简单的表达你对他的想法，只能说明你不够了解他。"
+
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_minepage_lscj"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/singlebox">
+
+            <ImageView
+                android:id="@+id/im_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/a"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/im_a"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:textSize="24dp"
+                android:text="历史成绩" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_minepage_wdsc"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/singlebox">
+            <ImageView
+                android:id="@+id/im_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/mine_tip"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/im_b"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:textSize="24dp"
+                android:text="我的收藏" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_minepage_wjsc"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/singlebox">
+
+            <ImageView
+                android:id="@+id/im_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/a"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/im_c"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:textSize="24dp"
+                android:text="文具商城" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_minepage_sz"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/singlebox">
+
+            <ImageView
+                android:id="@+id/im_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/a"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/im_d"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:textSize="24dp"
+                android:text="设置" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

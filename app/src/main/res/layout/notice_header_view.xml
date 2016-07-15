@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/singlebox"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_header_tea_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="班主任—王老师:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_header_tea_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="端午放假通知"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/tv_header_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_header_title"
+        android:layout_marginTop="10dp"
+
+        android:text="融云每次的发版热情都像北京今日超高温的烈日一样火辣辣！我们希望用融云炽热的服务能给开发者们带来更轻松、便捷的开发体验，让每个程序员都能灵活的掌握 IM SDK 的使用方法。这也是我们不断发版更新的动力"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_header_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_header_content"
+        android:layout_marginRight="16dp"
+        android:text="2019-12-12  10:20"
+        android:textSize="18dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tv_header_date"
+        android:background="#55000000" />
+    <ImageView
+        android:id="@+id/iv_header_good"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_header_date"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/tv_header_good_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_header_date"
+        android:layout_marginLeft="6dp"
+        android:textSize="22sp"
+        android:text="23"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@id/iv_header_good"
+        />
+
+    <ImageView
+        android:id="@+id/iv_header_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_header_date"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70dp"
+        android:src="@drawable/frq"/>
+
+    <TextView
+        android:id="@+id/tv_header_reply_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_header_date"
+        android:layout_marginRight="20dp"
+        android:textSize="22sp"
+        android:text="23"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>

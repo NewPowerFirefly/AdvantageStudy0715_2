@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.gaobo.firefly.advantagestudy1.mainfragment.activitysecond.classfragment.NoticeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titleBarHigh"
+        android:background="@color/titleBar">
+
+        <ImageView
+            android:id="@+id/iv_notice_body_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_notice_body_gs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="告示"
+            android:textColor="@color/titleFontColor"
+            android:textSize="@dimen/titleBarFontSize" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_notice_body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#ffffff"
+        android:divider="@color/background"
+        android:layout_marginTop="10dp"
+        android:scrollbars="none">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/ll_comment_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#44D4D4D4"
+        android:visibility="gone"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/et_body_reply"
+            android:layout_width="0dp"
+            android:layout_marginLeft="6dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/edit_text"/>
+
+        <Button
+            android:id="@+id/btn_body_reply"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="发送" />
+    </LinearLayout>
+
+</LinearLayout>

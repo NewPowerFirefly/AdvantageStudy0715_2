@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gaobo.firefly.advantagestudy1.mainfragment.activitysecond.minefragment.his_score_activity.HistoryScoreBight">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titleBarHigh"
+        android:background="@color/titleBar">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/iv_hisScore_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:id="@+id/tv_hisScore_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28dp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/spread_line_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.github.mikephil.charting.charts.LineChart>
+
+</LinearLayout>

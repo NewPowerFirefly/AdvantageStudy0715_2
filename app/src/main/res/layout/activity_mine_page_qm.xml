@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mainfragment.activitysecond.MinePageActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titleBarHigh"
+        android:background="@color/titleBar">
+
+        <ImageView
+            android:id="@+id/iv_qm_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="个人资料"
+            android:textColor="@color/titleFontColor"
+            android:textSize="@dimen/titleBarFontSize" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_marginTop="6dp"
+            android:id="@+id/rl_qm_headpic"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/singlebox">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="头像："
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/iv_qm_headpic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="#F3DA5D" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="6dp"
+            android:id="@+id/rl_qm_realname"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/singlebox">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="真实姓名："
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_qm_realname"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="6dp"
+            android:id="@+id/rl_qm_phoneNum"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/singlebox">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="联系电话："
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_qm_phonenumber"
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="6dp"
+            android:id="@+id/rl_qm_petname"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/singlebox">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="昵称："
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_qm_petname"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="6dp"
+            android:id="@+id/rl_qm_youhao"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/singlebox">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="优号："
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_qm_younumber"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="6dp"
+            android:id="@+id/rl_qm_cardcode"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/singlebox">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="二维码名片："
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/iv_qm_cardcode"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="#F3DA5D" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="6dp"
+            android:id="@+id/rl_qm_qm"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/singlebox">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="签名："
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_qm_qm"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

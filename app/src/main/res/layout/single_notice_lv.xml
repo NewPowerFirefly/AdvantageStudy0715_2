@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/singlebox"
+    android:layout_height="400dp">
+
+    <TextView
+        android:id="@+id/tv_notice_tea_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="班主任—王老师:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_notice_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:textColor="#000000"
+        android:text="端午放假通知"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/tv_notice_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_notice_title"
+        android:layout_marginTop="10dp"
+        android:lines="4"
+        android:ellipsize="end"
+        android:text="融云每次的发版热情都像北京今日超高温的烈日一样火辣辣！我们希望用融云炽热的服务能给开发者们带来更轻松、便捷的开发体验，让每个程序员都能灵活的掌握 IM SDK 的使用方法。这也是我们不断发版更新的动力"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_notice_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentRight="true"
+        android:text="2019-12-12  10:20"
+        android:textSize="18dp" />
+</RelativeLayout>

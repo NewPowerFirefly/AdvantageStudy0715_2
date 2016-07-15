@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gaobo.firefly.advantagestudy1.mainfragment.activitysecond.minefragment.ModPersonInfo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titleBarHigh"
+        android:background="@color/titleBar">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/iv_mod_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:id="@+id/tv_mod_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:id="@+id/bt_qm_save"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="#1AAD19"
+            android:text="保存"
+            android:textColor="@color/titleFontColor"
+            android:textSize="@dimen/titleBarFontSize" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_mod_info"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_mod_fontnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:text="30"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>

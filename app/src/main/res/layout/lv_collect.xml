@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical"
+    android:background="@drawable/singlebox">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_collect_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tou" />
+
+        <TextView
+            android:id="@+id/tv_collect_petName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_collect_photo"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:text="Only One"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tv_collect_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="2016-12-02"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#22000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tv_collect_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:text="温州，浙江省辖地级市，简称“瓯”；浙江省区域中心城市之一。温州历史悠久，有2000余年的建城历史。是中国民营经济发展的先发地区与改革开放的前沿阵地，在改革开放初期，以“南有吴川，北有温州”享誉全国。温州文化属瓯越文化，温州人属江浙民系使用吴语。"/>
+
+    </RelativeLayout>
+</LinearLayout>

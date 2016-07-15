@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RadioGroup
+        android:id="@+id/rg_class"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/singlebox"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_class_mes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ms"
+            android:gravity="center"
+            android:text="消息" />
+
+        <RadioButton
+            android:id="@+id/rb_class_con"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/lxr"
+            android:gravity="center"
+            android:text="联系人" />
+
+        <RadioButton
+            android:id="@+id/rb_class_notice"
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/icon_gaoshi"
+            android:gravity="center"
+            android:text="班级通知" />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/lv_class_main"
+        android:layout_below="@id/rg_class"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="回顶部"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
